@@ -1,9 +1,15 @@
 <% form_tag new_profile_path do %>
-
+<p><%= email_field_tag :email %></p>
+<p><%= text_field_tag :username %></p>
+<p><%= text_field_tag :pin %></p>
+<p><%= text_field_tag :email %></p>
+<p><%= text_field_tag :address %></p>
+<p><%= text_field_tag :alias %></p>
+<%= submit_tag %>
 <% end %>
 
 
-<label for="email">email</label>
+<!-- <label for="email">email</label>
 <input type="text" name="email" id="email" class="fancy_form" >
 
 <label for="username">username</label>
@@ -19,4 +25,4 @@
 <input type="text" name="address" id="address" class="fancy_form" >
 
 <label for="alias">alias</label>
-<input type="text" name="alias" id="alias" class="fancy_form" >
+<input type="text" name="alias" id="alias" class="fancy_form" > -->
